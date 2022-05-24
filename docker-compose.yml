@@ -9,3 +9,4 @@ services:
       telegram_token: $telegram_token
       user_ids: $user_ids
       group_ids: $group_ids
+      drive_id: $drive_id
