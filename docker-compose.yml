@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  app:
+    build: .
+    command: bash start.sh
+    restart: on-failure
+    environment: 
+      telegram_token: $telegram_token
+      user_ids: $user_ids
+      group_ids: $group_ids
